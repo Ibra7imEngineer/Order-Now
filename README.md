@@ -1,93 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibra7imEngineer Profile</title>
-    <style>
-        /* CSS تنسيقات الـ */
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            background-color: #f6f8fa;
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
+    <title>Ibra7im Engineer | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        .container {
-            max-width: 850px;
-            width: 100%;
-            background: #ffffff;
-            padding: 30px;
-            border: 1px solid #d0d7de;
-            border-radius: 6px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-        }
+    <div class="container">
+        <header>
+            <h2>Hey 👋, I'm <a href="#">Ibra7imEngineer</a></h2>
+            <p>I'm currently a <strong>Software Engineer</strong> passionate about building scalable applications. I'm working on some side projects and learning new technologies.</p>
+            
+            <div class="badges">
+                <span class="badge blue">LinkedIn</span>
+                <span class="badge green">Medium</span>
+                <span class="badge black">GitHub</span>
+            </div>
+        </header>
 
-        h2 {
-            border-bottom: 1px solid #d8dee4;
-            padding-bottom: 8px;
-            margin-top: 24px;
-        }
+        <main>
+            <section class="facts">
+                <img src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" class="profile-gif" alt="coding-gif">
+                <h2>⚡️ A Few Quick Facts</h2>
+                <ul>
+                    <li>🔭 I’m currently working on <strong>Private Projects</strong>.</li>
+                    <li>🧐 Learning about <strong>Cloud Computing</strong> and <strong>Architecture</strong>.</li>
+                    <li>💬 Ping me about <strong>React, Node.js, and Security</strong>.</li>
+                </ul>
+            </section>
 
-        a {
-            color: #0969da;
-            text-decoration: none;
-        }
+            <section class="tools">
+                <h2>🚀 Some Tools I Use</h2>
+                <div class="icon-group">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="js">
+                </div>
+            </section>
+        </main>
+    </div>
 
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .badge-container {
-            margin: 15px 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .badge-container img {
-            height: 20px;
-        }
-
-        .profile-gif {
-            float: right;
-            width: 150px;
-            border-radius: 8px;
-            margin-left: 20px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 15px;
-        }
-
-        .tech-stack img {
-            width: 35px;
-            height: 35px;
-            transition: transform 0.2s ease;
-        }
-
-        .tech-stack img:hover {
-            transform: translateY(-5px);
-        }
-
-        details {
-            background: #f6f8fa;
-            padding: 10px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
+</body>
+</html>
