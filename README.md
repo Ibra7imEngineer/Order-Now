@@ -1,39 +1,93 @@
-<h2>Hey 👋, I'm <a href="https://yourwebsite.com/">Ibra7imEngineer</a></h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibra7imEngineer Profile</title>
+    <style>
+        /* CSS تنسيقات الـ */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
 
-<p>I'm currently a <strong>Software Engineer</strong> passionate about building scalable applications and solving complex problems. I am working on some side projects, exploring new technologies, and constantly improving my coding skills.</p>
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: #ffffff;
+            padding: 30px;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
 
-<p>
-  <a href="https://yourwebsite.com"><img src="https://img.shields.io/badge/-Website-4E69C8?style=flat-square&labelColor=4E69C8&logo=Firefox" alt="Website Badge"></a> 
-  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&labelColor=0077B5&logo=LinkedIn" alt="LinkedIn Badge"></a> 
-  <a href="https://twitter.com/yourusername"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&labelColor=1DA1F2&logo=Twitter" alt="Twitter Badge"></a>
-</p>
+        h2 {
+            border-bottom: 1px solid #d8dee4;
+            padding-bottom: 8px;
+            margin-top: 24px;
+        }
 
-<img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="150" />
+        a {
+            color: #0969da;
+            text-decoration: none;
+        }
 
-<h2>⚡️ A Few Quick Facts</h2>
-<ul>
-  <li>🔭 I’m currently working on <strong>[اسم مشروعك]</strong>.</li>
-  <li>🧐 Learning about <strong>Cloud Computing</strong>, <strong>System Design</strong>, and <strong>Backend Architectures</strong>.</li>
-  <li>👨‍💻 Most of my projects are available on my <a href="https://github.com/Ibra7imEngineer">Github</a>.</li>
-  <li>💬 Ping me about <strong>React, Node.js, and Software Engineering</strong>.</li>
-  <li>🎉 Fun Fact: I love learning new things every day!</li>
-</ul>
+        a:hover {
+            text-decoration: underline;
+        }
 
-<h2>🚀 Some Tools I Use</h2>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="35" height="35" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="35" height="35" />
-</p>
+        .badge-container {
+            margin: 15px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
 
----
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ibra7imEngineer&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
+        .badge-container img {
+            height: 20px;
+        }
+
+        .profile-gif {
+            float: right;
+            width: 150px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .tech-stack img {
+            width: 35px;
+            height: 35px;
+            transition: transform 0.2s ease;
+        }
+
+        .tech-stack img:hover {
+            transform: translateY(-5px);
+        }
+
+        details {
+            background: #f6f8fa;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
